@@ -46,7 +46,8 @@ const Projects = () => {
         'A a web-based attendance and meals tracking system designed for community kitchen volunteers. Admins can manage user attendance, record daily meal reports, and generate insights through a secure, streamlined interface',
       image: sssnas,
       tags: ['React', 'Tailwind CSS', 'MongoDB', 'Express', 'Node'],
-      DemeURL: 'https://sssnaspune.org/',
+      // DemeURL: 'https://sssnaspune.org/',
+      DemeURL: '/',
       githubURL: 'https://github.com/SohamK25/AMS',
     },
   ];
