@@ -3,7 +3,7 @@ import { Sun, Moon } from 'lucide-react';
 import { cn } from '../lib/utils.js';
 
 const ThemeToggle = () => {
-    const [isDarkMode, setIsDarkMode] = useState(false);
+    const [isDarkMode, setIsDarkMode] = useState(true);
     const [scrolled, setScrolled] = useState(false);
 
     useEffect(() => {
