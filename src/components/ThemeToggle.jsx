@@ -7,15 +7,18 @@ const ThemeToggle = () => {
     const [scrolled, setScrolled] = useState(false);
 
     useEffect(() => {
-        const storedTheme = localStorage.getItem("theme");
-        if (storedTheme === "dark") {
-            setIsDarkMode(true)
-            document.documentElement.classList.add("dark");
-        } else {
-            localStorage.setItem("theme", "light")
-            setIsDarkMode(false);
-        }
-    }, [])
+    const storedTheme = localStorage.getItem("theme");
+
+    if (storedTheme === "dark" || storedTheme === null) {
+        // Default to dark if no theme is stored
+        setIsDarkMode(true);
+        document.documentElement.classList.add("dark");
+        localStorage.setItem("theme", "dark"); // Optional: Save default
+    } else {
+        setIsDarkMode(false);
+        document.documentElement.classList.remove("dark");
+    }
+}, []);
 
 
     useEffect(() => {
