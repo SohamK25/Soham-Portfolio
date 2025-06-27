@@ -28,7 +28,7 @@ const About = () => {
                             Get In Touch
                         </a>
                         <a
-                            href="https://drive.google.com/file/d/1yy3disjoVWdErkTfPb9xjW2oZw1nQbvx/view"
+                            href="https://drive.google.com/file/d/11mk6J5yAefKEFdtysQY4OPIeYkCUfWHG/view"
                             className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/50 transition-colors duration-300"
                         >
                             Download CV
