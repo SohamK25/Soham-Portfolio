@@ -47,7 +47,6 @@ const Projects = () => {
       image: sssnas,
       tags: ['React', 'Tailwind CSS', 'MongoDB', 'Express', 'Node'],
       DemeURL: 'https://sssnaspune.org/',
-      DemeURL: '/',
       githubURL: 'https://github.com/SohamK25/AMS',
     },
   ];
